@@ -1,8 +1,12 @@
 {
   "name": "coc-prisma",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Coc extension that implements Prisma Language Server",
   "author": "Harshit Pant <pantharshit00@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pantharshit00/coc-prisma"
+  },
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
@@ -30,5 +34,12 @@
   ],
   "dependencies": {
     "@prisma/language-server": "^2.0.15"
-  }
+  },
+  "commands": [
+    {
+      "command": "coc-prisma.restartLanguageServer",
+      "title": "Restart Prisma Language Server",
+      "category": "Prisma"
+    }
+  ]
 }

@@ -24,7 +24,6 @@ function createLanguageServer(
 
 export async function activate(context: ExtensionContext): Promise<void> {
   const serverModule = require.resolve("@prisma/language-server/dist/src/cli");
-  workspace.showMessage("it works");
 
   // The debug options for the server
   // --inspect=6009: runs the server in Node's Inspector mode so VS Code can attach to the server for debugging
@@ -53,7 +52,6 @@ export async function activate(context: ExtensionContext): Promise<void> {
   // Create the language client
   let client = createLanguageServer(serverOptions, clientOptions);
 
-  workspace.showMessage("we are going to start it");
   // Start the client. This will also launch the server
   context.subscriptions.push(client.start());
 
