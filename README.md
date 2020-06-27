@@ -1,6 +1,6 @@
 # coc-prisma
 
-Coc extension that implements Prisma Language Server
+Coc extension that implements Prisma Language Server. Use it alongside with the Prisma syntax plugin: https://github.com/pantharshit00/vim-prisma
 
 ## Install
 
