@@ -6,13 +6,12 @@ Coc extension that implements Prisma Language Server
 
 `:CocInstall coc-prisma`
 
-## Keymaps
 
-`nmap <silent> <C-l> <Plug>(coc-coc-prisma-keymap)`
+## Screenshots
+![image](https://user-images.githubusercontent.com/22195362/85920005-c8faca80-b88d-11ea-9a49-e3ebfad22375.png)
 
-## Lists
+![image](https://user-images.githubusercontent.com/22195362/85920012-d2843280-b88d-11ea-8517-95595c354325.png)
 
-`:CocList demo_list`
 
 ## License
 
