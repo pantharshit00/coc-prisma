@@ -1,6 +1,6 @@
 {
   "name": "coc-prisma",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Coc extension that implements Prisma Language Server",
   "author": "Harshit Pant <pantharshit00@gmail.com>",
   "repository": {
@@ -33,7 +33,7 @@
     "onLanguage:prisma"
   ],
   "dependencies": {
-    "@prisma/language-server": "^2.0.15"
+    "@prisma/language-server": "^2.0.28"
   },
   "commands": [
     {
