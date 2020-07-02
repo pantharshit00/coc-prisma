@@ -18,32 +18,39 @@
     update-notifier "^2.2.0"
     yargs "^8.0.2"
 
-"@prisma/debug@2.2.0-dev.28":
-  version "2.2.0-dev.28"
-  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.2.0-dev.28.tgz#4af38a4183f72bb686e52c5c568407c2883448b4"
-  integrity sha512-oB8Jolg3xF5OHFwYQ/uh8f6sQWWdWgL1Fz0Mz/5nzzafvpXuINLAhvdZ3EFglPyz/6SBu7n9msHWi8dskijKWg==
+"@prisma/debug@2.2.0-dev.36":
+  version "2.2.0-dev.36"
+  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.2.0-dev.36.tgz#90527f1d63507edf15ce0b5b5cd1ae4ac154a0c3"
+  integrity sha512-wamDMh7shL1kGR5Rgh9ZbNEOy6UpoK13+lonjwLeuIO7ivUzEVsGDYi5+15MVc+cxTF1f7W4WxDFCsb43+bw2Q==
   dependencies:
     debug "^4.1.1"
 
-"@prisma/get-platform@2.2.0-dev.28":
-  version "2.2.0-dev.28"
-  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-2.2.0-dev.28.tgz#e136287f7411081283f407e5a623e999824a7f6d"
-  integrity sha512-9tPTjqjZppxLk7pQCWoIrqiUazK+I9QCO9qQtWlpIJ5SjWKjUlbNcoEFVnGNNbP1BcVztH0srdW2uSO4PmBlTw==
+"@prisma/get-platform@2.2.0-dev.36":
+  version "2.2.0-dev.36"
+  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-2.2.0-dev.36.tgz#ee519a7e72989ed29626b7640e18f1d228e88d3d"
+  integrity sha512-iQ2ewcMhrMx1soW7lIqQ0D6SYL5iaQ1wTWDHRN7B9/c7jOBavSc+jwrVQRGdP3uQP1AY0WLwiAMl17yFOOrA9w==
   dependencies:
-    "@prisma/debug" "2.2.0-dev.28"
+    "@prisma/debug" "2.2.0-dev.36"
 
-"@prisma/language-server@^2.0.28":
-  version "2.0.28"
-  resolved "https://registry.yarnpkg.com/@prisma/language-server/-/language-server-2.0.28.tgz#145b779ee87cfe4e57b71d1ba4be9de9924dc12b"
-  integrity sha512-iGizRcFdvn61DPvt+GMmLDSH69IoYs0Pq4leFSHQh0wJr0L3dNTpYNhcplWvykpHo0hqnfMtfpttHi9TdCuCCQ==
+"@prisma/language-server@^2.0.36":
+  version "2.0.36"
+  resolved "https://registry.yarnpkg.com/@prisma/language-server/-/language-server-2.0.36.tgz#d231e5c49acb314a9ac2f6b6c07f82d0e276aa78"
+  integrity sha512-UNDwAcRe6237Zs46unbQ9/1BQRF9LBcgT39Aius97FmRZYr9Uvp9FpgJHoPaGITZGZ94ijTIeXsJ9C3blYGPdA==
   dependencies:
-    "@prisma/get-platform" "2.2.0-dev.28"
+    "@prisma/get-platform" "2.2.0-dev.36"
+    "@types/js-levenshtein" "1.1.0"
+    js-levenshtein "1.1.6"
     klona "1.1.1"
     npm "6.14.5"
     pkg-dir "4.2.0"
     vscode-languageserver "6.1.1"
     vscode-languageserver-textdocument "1.0.1"
     vscode-uri "2.1.1"
+
+"@types/js-levenshtein@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@types/js-levenshtein/-/js-levenshtein-1.1.0.tgz#9541eec4ad6e3ec5633270a3a2b55d981edc44a9"
+  integrity sha512-14t0v1ICYRtRVcHASzes0v/O+TIeASb8aD55cWF1PidtInhFWSXcmhzhHqGjUWf9SUq1w70cvd1cWKUULubAfQ==
 
 "@types/node@^14.0.13":
   version "14.0.14"
@@ -1421,6 +1428,11 @@ isuri@^2.0.3:
   integrity sha1-NDcSHbL+Za8LoIC34ahjb2MsypE=
   dependencies:
     rfc-3986 "1.0.1"
+
+js-levenshtein@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
+  integrity sha512-X2BB11YZtrRqY4EnQcLX5Rh373zbK4alC1FW7D7MBhL2gtcC17cTnr6DmfHZeS0s2rTHjUTMMHfG7gO8SSdw+g==
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -3338,10 +3350,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.9.5:
-  version "3.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
-  integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
+typescript@^3.9.6:
+  version "3.9.6"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.6.tgz#8f3e0198a34c3ae17091b35571d3afd31999365a"
+  integrity sha512-Pspx3oKAPJtjNwE92YS05HQoY7z2SFyOpHo9MqJor3BXAGNaPUs83CuVp9VISFkSjyRfiTpmKuAYGJB7S7hOxw==
 
 uid-number@0.0.6:
   version "0.0.6"
