@@ -18,26 +18,26 @@
     update-notifier "^2.2.0"
     yargs "^8.0.2"
 
-"@prisma/debug@2.2.0-dev.36":
-  version "2.2.0-dev.36"
-  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.2.0-dev.36.tgz#90527f1d63507edf15ce0b5b5cd1ae4ac154a0c3"
-  integrity sha512-wamDMh7shL1kGR5Rgh9ZbNEOy6UpoK13+lonjwLeuIO7ivUzEVsGDYi5+15MVc+cxTF1f7W4WxDFCsb43+bw2Q==
+"@prisma/debug@2.3.0-dev.1":
+  version "2.3.0-dev.1"
+  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.3.0-dev.1.tgz#377b5bb2c15f21d3028923ea01127b8afffb8c26"
+  integrity sha512-fCiJ3+xMCcFCVZGt5kJwycSw1IkXZB4F5KhmQ4PuNiG9E7hZAyBFMuuaFh1wPMSvKYu7Y3MQ8OZ+aClaoBirFA==
   dependencies:
     debug "^4.1.1"
 
-"@prisma/get-platform@2.2.0-dev.36":
-  version "2.2.0-dev.36"
-  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-2.2.0-dev.36.tgz#ee519a7e72989ed29626b7640e18f1d228e88d3d"
-  integrity sha512-iQ2ewcMhrMx1soW7lIqQ0D6SYL5iaQ1wTWDHRN7B9/c7jOBavSc+jwrVQRGdP3uQP1AY0WLwiAMl17yFOOrA9w==
+"@prisma/get-platform@2.3.0-dev.1":
+  version "2.3.0-dev.1"
+  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-2.3.0-dev.1.tgz#b44efbb0329ddc9628dd9ce9a7a3c612cd7f18cf"
+  integrity sha512-y7q3SXWGuHX9mbkFCN6KN6B3Ey7m/Yvv3BXmeRcnYzLhuNOzmZLH0Xxfp1wN1S7k/Aqa2j5+U0Lz/q2mQGg3Ww==
   dependencies:
-    "@prisma/debug" "2.2.0-dev.36"
+    "@prisma/debug" "2.3.0-dev.1"
 
-"@prisma/language-server@^2.0.36":
-  version "2.0.36"
-  resolved "https://registry.yarnpkg.com/@prisma/language-server/-/language-server-2.0.36.tgz#d231e5c49acb314a9ac2f6b6c07f82d0e276aa78"
-  integrity sha512-UNDwAcRe6237Zs46unbQ9/1BQRF9LBcgT39Aius97FmRZYr9Uvp9FpgJHoPaGITZGZ94ijTIeXsJ9C3blYGPdA==
+"@prisma/language-server@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@prisma/language-server/-/language-server-3.0.1.tgz#080d0fca5caed11042ea044459604ff2b6820d94"
+  integrity sha512-FDIAUWrkwNxw/ZyFQjFJPgXrp6mqxg7xgfzMmLxZmPpy6KGNKVfAWmeiA0FiaZ4pHwRGtiQi2tfGxexU1BLjwg==
   dependencies:
-    "@prisma/get-platform" "2.2.0-dev.36"
+    "@prisma/get-platform" "2.3.0-dev.1"
     "@types/js-levenshtein" "1.1.0"
     js-levenshtein "1.1.6"
     klona "1.1.1"
@@ -52,10 +52,10 @@
   resolved "https://registry.yarnpkg.com/@types/js-levenshtein/-/js-levenshtein-1.1.0.tgz#9541eec4ad6e3ec5633270a3a2b55d981edc44a9"
   integrity sha512-14t0v1ICYRtRVcHASzes0v/O+TIeASb8aD55cWF1PidtInhFWSXcmhzhHqGjUWf9SUq1w70cvd1cWKUULubAfQ==
 
-"@types/node@^14.0.13":
-  version "14.0.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.14.tgz#24a0b5959f16ac141aeb0c5b3cd7a15b7c64cbce"
-  integrity sha512-syUgf67ZQpaJj01/tRTknkMNoBBLWJOBODF0Zm4NrXmiSuxjymFrxnTu1QVYRubhVkRcZLYZG8STTwJRdVm/WQ==
+"@types/node@^14.0.18":
+  version "14.0.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.18.tgz#5111b2285659442f9f95697386a2b42b875bd7e9"
+  integrity sha512-0Z3nS5acM0cIV4JPzrj9g/GH0Et5vmADWtip3YOXOp1NpOLU8V3KoZDc8ny9c1pe/YSYYzQkAWob6dyV/EWg4g==
 
 JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"
