@@ -22,24 +22,38 @@
     "prepare": "npm-run-all clean build"
   },
   "devDependencies": {
-    "@types/node": "^14.14.5",
+    "@types/node": "^14.14.6",
     "coc.nvim": "^0.0.79",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
-    "ts-loader": "^8.0.7",
+    "ts-loader": "^8.0.10",
     "typescript": "^4.0.5"
   },
   "activationEvents": [
     "onLanguage:prisma"
   ],
   "dependencies": {
-    "@prisma/language-server": "2.10.0"
+    "@prisma/language-server": "2.10.2"
   },
-  "commands": [
-    {
-      "command": "coc-prisma.restartLanguageServer",
-      "title": "Restart Prisma Language Server",
-      "category": "Prisma"
+  "contributes": {
+    "commands": [
+      {
+        "command": "coc-prisma.restartLanguageServer",
+        "title": "Restart Prisma Language Server",
+        "category": "Prisma"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Prisma language server configuration",
+      "properties": {
+        "prismaLanguageServer.prismaFmtBinPath": {
+          "scope": "resource",
+          "type": "string",
+          "default": "",
+          "description": "Option to set the path to the prisma-fmt binary."
+        }
+      }
     }
-  ]
+  }
 }

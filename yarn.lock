@@ -18,26 +18,26 @@
     update-notifier "^2.2.0"
     yargs "^8.0.2"
 
-"@prisma/debug@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.10.0.tgz#79abc546aa320e46cf351aeaa947a6fff3fc6e16"
-  integrity sha512-awhATQXSLPxwBjjSP0KvBUpPM+nxAh0mZpo/ckOh3XNfH8L8O7TQlQwJoOOCkYA3mBlaHScVNZnr5mwcqOwB5A==
+"@prisma/debug@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.10.2.tgz#9163bc542277453622406562a20c1a0f4044b4fd"
+  integrity sha512-BTiinpS8t7le9hS/O5Po1WScByIdHFoxlW1WcDyanldnEfDHDJOKuMtz1nKajl5/njcFeSl1cy5ZUEvw+kVbbg==
   dependencies:
     debug "^4.1.1"
 
-"@prisma/get-platform@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-2.10.0.tgz#74c9941338070163909cc13b14c491156205755e"
-  integrity sha512-wcS1/rhT3yTJ23knP0RwKz9MVeyDD8ZyQ5UCUzEtCFs+OLR8sjNULnfKdly2cUdgIkuJdMhCRful+ILt21KJgg==
+"@prisma/get-platform@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-2.10.2.tgz#fddcb4a81bb9d2f3db27e600aa654fb19f9446ea"
+  integrity sha512-vI3SgxvdLSeE8mSTgrojCsFpEWxwKTdryUEoQlCRew+4wSYicnhiPKpccaGuY6qmYs1m9h60SdrJ6QAEnaFQvA==
   dependencies:
-    "@prisma/debug" "2.10.0"
+    "@prisma/debug" "2.10.2"
 
-"@prisma/language-server@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@prisma/language-server/-/language-server-2.10.0.tgz#7d754b410c83a69c600dab7c9365b3e44cad88b0"
-  integrity sha512-/38NtESyWqlF3XI+kg9INtfmQlICLukmjwMX/y3ANRTV3Mi23dx5aUPIRdYpDHB+PEnO6QEAc56ozlg47ye15w==
+"@prisma/language-server@2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@prisma/language-server/-/language-server-2.10.2.tgz#5f031f5d4b64e19d7d2e4806a4b38e3dc0a85390"
+  integrity sha512-IiMX2+Stu+Klit8C6mOkkCCPx2rPuCvXruYg3HtNtzUD1hqqfiP7r4/QTbOKEmbV7vzrmBKaxbSFrMXvPzB49w==
   dependencies:
-    "@prisma/get-platform" "2.10.0"
+    "@prisma/get-platform" "2.10.2"
     "@types/js-levenshtein" "1.1.0"
     execa "4.0.3"
     js-levenshtein "1.1.6"
@@ -58,10 +58,10 @@
   resolved "https://registry.yarnpkg.com/@types/js-levenshtein/-/js-levenshtein-1.1.0.tgz#9541eec4ad6e3ec5633270a3a2b55d981edc44a9"
   integrity sha512-14t0v1ICYRtRVcHASzes0v/O+TIeASb8aD55cWF1PidtInhFWSXcmhzhHqGjUWf9SUq1w70cvd1cWKUULubAfQ==
 
-"@types/node@^14.14.5":
-  version "14.14.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.5.tgz#e92d3b8f76583efa26c1a63a21c9d3c1143daa29"
-  integrity sha512-H5Wn24s/ZOukBmDn03nnGTp18A60ny9AmCwnEcgJiTgSGsCO7k+NWP7zjCCbhlcnVCoI+co52dUAt9GMhOSULw==
+"@types/node@^14.14.6":
+  version "14.14.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.6.tgz#146d3da57b3c636cc0d1769396ce1cfa8991147f"
+  integrity sha512-6QlRuqsQ/Ox/aJEQWBEJG7A9+u7oSYl3mem/K8IzxXG/kAGbV1YPD9Bg9Zw3vyxC/YP+zONKwy8hGkSt1jxFMw==
 
 JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"
@@ -3682,10 +3682,10 @@ tough-cookie@~2.5.0:
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.3.9.tgz#717b8f220cc0bb7b44e40514c22b2e8bbc70d8b9"
   integrity sha1-cXuPIgzAu3tE5AUUwisui7xw2Lk=
 
-ts-loader@^8.0.7:
-  version "8.0.7"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-8.0.7.tgz#9ce70db5b3906cc9143a09c54ff5247d102ea974"
-  integrity sha512-ooa4wxlZ9TOXaJ/iVyZlWsim79Ul4KyifSwyT2hOrbQA6NZJypsLOE198o8Ko+JV+ZHnMArvWcl4AnRqpCU/Mw==
+ts-loader@^8.0.10:
+  version "8.0.10"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-8.0.10.tgz#4af4afb8d26847290cd010df93a4c172df92278f"
+  integrity sha512-5fVbbZldz6LQi6RQ0v1P7lZ98CZGlQyM8b4xGZXw3G/XUqL8GIH+Ib6H01nImPhkHZ9+PVXZgTb+v3fRsaIHlg==
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
