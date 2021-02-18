@@ -2,12 +2,12 @@
 // Imports are transformed so that they can work with CoC
 import {
   ExtensionContext,
-  workspace,
   LanguageClient,
   TransportKind,
   ServerOptions,
   LanguageClientOptions,
   commands,
+  window,
 } from "coc.nvim";
 
 function createLanguageServer(
@@ -53,7 +53,9 @@ export async function activate(context: ExtensionContext): Promise<void> {
   let client = createLanguageServer(serverOptions, clientOptions);
 
   // Start the client. This will also launch the server
-  context.subscriptions.push(client.start());
+  let disposable = client.start();
+
+  context.subscriptions.push(disposable);
 
   context.subscriptions.push(
     commands.registerCommand("coc-prisma.restartLanguageServer", async () => {
@@ -61,7 +63,7 @@ export async function activate(context: ExtensionContext): Promise<void> {
       client = createLanguageServer(serverOptions, clientOptions);
       context.subscriptions.push(client.start());
       await client.onReady();
-      workspace.showMessage("Prisma language server restarted.");
+      window.showInformationMessage("Prisma language server restarted.");
     })
   );
 }
