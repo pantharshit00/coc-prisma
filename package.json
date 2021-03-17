@@ -1,6 +1,6 @@
 {
   "name": "coc-prisma",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Coc extension that implements Prisma Language Server",
   "author": "Harshit Pant <pantharshit00@gmail.com>",
   "repository": {
@@ -22,18 +22,18 @@
     "prepare": "npm-run-all clean build"
   },
   "devDependencies": {
-    "@types/node": "^14.14.31",
+    "@types/node": "^14.14.35",
     "coc.nvim": "0.0.80",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
-    "ts-loader": "^8.0.17",
-    "typescript": "^4.2.2"
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3"
   },
   "activationEvents": [
     "onLanguage:prisma"
   ],
   "dependencies": {
-    "@prisma/language-server": "2.18.1"
+    "@prisma/language-server": "2.19.0"
   },
   "contributes": {
     "commands": [
